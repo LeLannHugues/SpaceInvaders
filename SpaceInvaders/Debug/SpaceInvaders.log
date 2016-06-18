@@ -1,0 +1,25 @@
+﻿La génération a démarré 17/06/2016 23:08:19.
+     1>Projet "C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\SpaceInvaders\SpaceInvaders.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(48): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(150): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(171): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(194): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(197): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(212): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(234): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\hugues\documents\visual studio 2013\projects\spaceinvaders\spaceinvaders\main.cpp(240): warning C4018: '<' : incompatibilité signed/unsigned
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\Debug\SpaceInvaders.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.3.2\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\Debug\SpaceInvaders.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\Debug\SpaceInvaders.lib" /MACHINE:X86 Debug\Element.obj
+         Debug\Ennemi.obj
+         Debug\main.obj
+         Debug\Tir.obj
+         Debug\Vaisseau.obj
+         SpaceInvaders.vcxproj -> C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\Debug\SpaceInvaders.exe
+     1>Génération du projet "C:\Users\Hugues\Documents\Visual Studio 2013\Projects\SpaceInvaders\SpaceInvaders\SpaceInvaders.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:04.23
